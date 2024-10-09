@@ -62,15 +62,14 @@
 ;;;###autoload
 (define-derived-mode kdl-mode prog-mode "kdl"
   "Major mode for kdl files."
-  :group 'kdl
-  :abbrev-table kdl-mode-abbrev-table
+  ;;; :abbrev-table kdl-mode-abbrev-table
   (setq font-lock-defaults kdl--font-lock-defaults)
   (setq-local comment-start "//")
   (setq-local comment-start-skip "/-")
   (setq-local indent-line-function #'kdl-indent-line)
   (setq-local indent-tabs-mode t))
 
-(add-to-list 'auto-mode-alist '("\\.kdl" . kdl-mode))
+;;;###autoload(add-to-list 'auto-mode-alist '("\\.kdl" . kdl-mode))
 
 (provide 'kdl-mode)
 

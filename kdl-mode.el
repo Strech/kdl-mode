@@ -62,6 +62,7 @@
 ;;;###autoload
 (define-derived-mode kdl-mode prog-mode "kdl"
   "Major mode for kdl files."
+  :group 'kdl
   :abbrev-table kdl-mode-abbrev-table
   (setq font-lock-defaults kdl--font-lock-defaults)
   (setq-local comment-start "//")

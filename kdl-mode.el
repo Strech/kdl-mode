@@ -18,8 +18,6 @@
 ;;
 ;;
 ;;; Code:
-(provide 'kdl-mode)
-
 (eval-when-compile
   (require 'rx))
 
@@ -72,5 +70,7 @@
   (setq-local indent-tabs-mode t))
 
 (add-to-list 'auto-mode-alist '("\\.kdl" . kdl-mode))
+
+(provide 'kdl-mode)
 
 ;;; kdl-mode.el ends here

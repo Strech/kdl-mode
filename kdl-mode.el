@@ -1,3 +1,5 @@
+;; https://github.com/Lindydancer/ini-mode/blob/5472abc94e564edc6b469c48d2324519a044a77c/ini-mode.el#L60-L85
+
 ;;; kdl-mode.el simple mode for KDL -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (C) 2024 Grigoriy Bakunov

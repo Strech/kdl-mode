@@ -61,6 +61,7 @@
 (define-abbrev-table 'kdl-mode-abbrev-table
   '())
 
+;;;###autoload
 (define-derived-mode kdl-mode prog-mode "kdl"
   "Major mode for kdl files."
   :abbrev-table kdl-mode-abbrev-table
